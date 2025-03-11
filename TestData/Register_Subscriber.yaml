@@ -1,0 +1,461 @@
+TST_F3_1_1_1:
+  unidentifier: taweesis
+  pwidentifier: Taw@2021
+  verify_login:
+    name: Taweesin Suksompoch
+    status: Available
+  id: sub-2b6tp-22112515520845293353
+  query: SELECT ID FROM MPONEWSUBADM.MPONEWSUB_INSTANCE WHERE ID='sub-2b6tp-22112515520845293353' ORDER BY CREATED_DATE DESC;
+
+
+TST_F3_1_1_2:
+  unidentifier: taweesis
+  pwidentifier: Taw@2021
+  verify_login:
+    name: Taweesin Suksompoch
+    status: Available
+  # verify_date:
+  StartDate: '2022-11-25 00:00:00'
+  EndDate: '2022-11-25 23:59:59'
+  # query: SELECT ID FROM MPONEWSUBADM.MPONEWSUB_INSTANCE WHERE ID='sub-2b6tp-22112515520845293353' ORDER BY CREATED_DATE DESC;
+
+TST_F3_1_1_3:
+  unidentifier: taweesis
+  pwidentifier: Taw@2021
+  verify_login:
+    name: Taweesin Suksompoch
+    status: Available
+  state: [Failed,Completed,Pending,InProgress,Canceled]
+
+
+TST_F3_1_1_4:
+  unidentifier: taweesis
+  pwidentifier: Taw@2021
+  verify_login:
+    name: Taweesin Suksompoch
+    status: Available
+  menu_criteria : [Private Id Type / Value]
+  search_conditions:
+    private_id_type: customerOrderRefId
+    private_id_value: CO-zk69z-2211251551385258270T004
+
+
+TST_F3_1_1_5:
+  unidentifier: taweesis
+  pwidentifier: Taw@2021
+  verify_login:
+    name: Taweesin Suksompoch
+    status: Available
+  menu_criteria : [Public Id Type / Value]
+  search_conditions:
+    public_id_type: mobileNo
+    public_id_value: 0893647571
+
+
+TST_F3_1_1_6:
+  unidentifier: taweesis
+  pwidentifier: Taw@2021
+  verify_login:
+    name: Taweesin Suksompoch
+    status: Available
+  menu_criteria : [Error Message]
+  search_conditions:
+    error_message: Read timed out
+ # สำรอง Subscriber provisioning Resources exception, Failed: usmpDsSubscriber(1) AISUSMP_IOT: VSMP-01010004 Record already existed in Vsmp database.
+ # 25/11/2022
+
+TST_F3_1_1_7:
+  unidentifier: taweesis
+  pwidentifier: Taw@2021
+  verify_login:
+    name: Taweesin Suksompoch
+    status: Available
+  menu_criteria : [URI]
+  search_conditions:
+    uri: /mobile-postpaid/register/subscriber/v1/charging/accounts
+
+
+TST_F3_1_1_8:
+  unidentifier: taweesis
+  pwidentifier: Taw@2021
+  verify_login:
+    name: Taweesin Suksompoch
+    status: Available
+  menu_criteria : [Method]
+  method: [POST,GET,PATCH,PUT,DELETE]
+
+
+TST_F3_1_1_9:
+  unidentifier: taweesis
+  pwidentifier: Taw@2021
+  verify_login:
+    name: Taweesin Suksompoch
+    status: Available
+  StartDate : '2022-11-25 00:00:00'
+  EndDate : '2022-11-25 23:59:59'     
+  id: sub-2b6tp-22112515520845293353
+
+
+TST_F3_1_1_10:
+  unidentifier: taweesis
+  pwidentifier: Taw@2021
+  verify_login:
+    name: Taweesin Suksompoch
+    status: Available
+  StartDate : '2022-11-22 00:00:00'
+  EndDate : '2022-11-23 23:59:59'     
+  state: [Completed]
+
+
+TST_F3_1_1_11:
+  unidentifier: taweesis
+  pwidentifier: Taw@2021
+  verify_login:
+    name: Taweesin Suksompoch
+    status: Available
+  menu_criteria : [Private Id Type / Value]     
+  search_conditions:
+    private_id_type: customerOrderRefId
+    private_id_value: CO-zk69z-2211251551385258270T004
+  StartDate : '2022-11-25 00:00:00'
+  EndDate : '2022-11-25 23:59:59' 
+
+TST_F3_1_1_12:
+  unidentifier: taweesis
+  pwidentifier: Taw@2021
+  verify_login:
+    name: Taweesin Suksompoch
+    status: Available
+  menu_criteria : [Public Id Type / Value]     
+  search_conditions:
+    public_id_type: mobileNo
+    public_id_value: 0893640669
+  StartDate : '2022-11-24 00:00:00'
+  EndDate : '2022-11-24 23:59:59' 
+
+TST_F3_1_1_13:
+  unidentifier: taweesis
+  pwidentifier: Taw@2021
+  verify_login:
+    name: Taweesin Suksompoch
+    status: Available
+  search_conditions:
+    error_message: 'Subscriber provisioning Resources exception, Failed: usmpDsSubscriber(1) AISUSMP_IOT: VSMP-01010004 Record already existed in Vsmp database.'
+  menu_criteria : [Error Message]    
+  StartDate : '2022-11-25 00:00:00'
+  EndDate : '2022-11-25 23:59:59' 
+
+TST_F3_1_1_14:
+  unidentifier: taweesis
+  pwidentifier: Taw@2021
+  verify_login:
+    name: Taweesin Suksompoch
+    status: Available
+  search_conditions:
+    uri: /mobile-postpaid/register/subscriber/v1/billing/accounts
+  menu_criteria : [URI]    
+  StartDate : '2022-08-10 00:00:00'
+  EndDate : '2022-08-10 23:59:59' 
+
+TST_F3_1_1_15:
+  unidentifier: taweesis
+  pwidentifier: Taw@2021
+  verify_login:
+    name: Taweesin Suksompoch
+    status: Available
+  method: [POST]
+  menu_criteria : [Method]    
+  StartDate : '2022-12-01 00:00:00'
+  EndDate : '2022-12-01 23:59:59' 
+
+TST_F3_1_1_16:
+  unidentifier: taweesis
+  pwidentifier: Taw@2021
+  verify_login:
+    name: Taweesin Suksompoch
+    status: Available
+  menu_criteria : [Private Id Type / Value,Public Id Type / Value,Error Message,URI,Method]    
+  StartDate : '2022-03-26 00:00:00'
+  EndDate : '2022-03-26 23:59:59'
+  state: [Failed]
+  method: [POST]
+  search_conditions:
+    private_id_type: customerOrderRefId
+    private_id_value: CO-pfcgv-2203261357261123553T004
+    public_id_type: mobileNo
+    public_id_value: 0893640593
+    error_message: 'Subscriber provisioning Resources exception, Failed: usmpDsSubscriber(1) AISUSMP_IOT: VSMP-01010004 Record already existed in Vsmp database.'
+    uri: /mobile-postpaid/register/subscriber/v1/charging/accounts
+
+TST_F3_0_1_1:
+  unidentifier: taweesis
+  pwidentifier: Taw@2021
+  verify_login:
+    name: Taweesin Suksompoch
+    status: Available
+  menu_criteria : [Private Id Type / Value]    
+  StartDate : '2022-11-23 00:00:00'
+  EndDate : '2022-11-23 23:59:59'
+  search_conditions:
+    private_id_type: customerOrderRefId
+    private_id_value: CO-zk69z-2211251551385258270T004
+  state: [Failed]
+
+TST_F3_1_3_1:
+  unidentifier: taweesis
+  pwidentifier: Taw@2021
+  verify_login:
+    name: Taweesin Suksompoch
+    status: Available
+  StartDate : '2022-11-24 00:00:00'
+  EndDate : '2022-11-28 23:59:59'
+
+TST_F3_1_3_2:
+  unidentifier: taweesis
+  pwidentifier: Taw@2021
+  verify_login:
+    name: Taweesin Suksompoch
+    status: Available
+  StartDate : '2022-11-24 00:00:00'
+  EndDate : '2022-11-28 23:59:59'
+
+TST_F3_1_3_3:
+  unidentifier: taweesis
+  pwidentifier: Taw@2021
+  verify_login:
+    name: Taweesin Suksompoch
+    status: Available
+  StartDate : '2022-11-24 00:00:00'
+  EndDate : '2022-11-28 23:59:59'
+
+TST_F3_1_3_4:
+  unidentifier: taweesis
+  pwidentifier: Taw@2021
+  verify_login:
+    name: Taweesin Suksompoch
+    status: Available
+  StartDate : '2022-11-21 00:00:00'
+  EndDate : '2022-11-25 23:59:59'
+
+TST_F3_1_3_5:
+  unidentifier: taweesis
+  pwidentifier: Taw@2021
+  verify_login:
+    name: Taweesin Suksompoch
+    status: Available
+  StartDate : '2023-11-06 00:00:00'
+  EndDate : '2023-11-10 23:59:59'
+
+
+TST_F3_1_2_1:
+  unidentifier: taweesis
+  pwidentifier: Taw@2021
+  verify_login:
+    name: Taweesin Suksompoch
+    status: Available 
+  id : sub-nkjdk-23111311234199853229T001
+
+
+TST_F3_1_2_2:
+  unidentifier: taweesis
+  pwidentifier: Taw@2021
+  verify_login:
+    name: Taweesin Suksompoch
+    status: Available
+  StartDate: '2022-11-25 00:00:00'
+  EndDate: '2022-11-25 23:59:59'
+
+
+TST_F3_1_2_3:
+  unidentifier: taweesis
+  pwidentifier: Taw@2021
+  verify_login:
+    name: Taweesin Suksompoch
+    status: Available
+  state: [Failed,Completed,Pending,InProgress,Canceled]
+
+
+TST_F3_1_2_4:
+  unidentifier: taweesis
+  pwidentifier: Taw@2021
+  verify_login:
+    name: Taweesin Suksompoch
+    status: Available
+  menu_criteria : [Instance Id] 
+  search_conditions:
+    instance_id: sub-nkjdk-23111311234199853229
+    
+
+TST_F3_1_2_5:
+  unidentifier: taweesis
+  pwidentifier: Taw@2021
+  verify_login:
+    name: Taweesin Suksompoch
+    status: Available
+  menu_criteria : [Name] 
+  search_conditions:
+    name: PHX_P_ADD_TARIFF
+
+
+TST_F3_1_2_6:
+  unidentifier: taweesis
+  pwidentifier: Taw@2021
+  verify_login:
+    name: Taweesin Suksompoch
+    status: Available
+  menu_criteria : [Error Message] 
+  search_conditions:
+    error_message: Read timed out
+
+
+TST_F3_1_2_7:
+  unidentifier: taweesis
+  pwidentifier: Taw@2021
+  verify_login:
+    name: Taweesin Suksompoch
+    status: Available
+  menu_criteria : [External System] 
+  search_conditions:
+    external_system: PGZ
+
+TST_F3_1_2_8:
+  unidentifier: taweesis
+  pwidentifier: Taw@2021
+  verify_login:
+    name: Taweesin Suksompoch
+    status: Available
+  id : sub-2b6tp-22112515521963183860T001
+  StartDate : '2022-11-23 00:00:00'
+  EndDate : '2022-11-25 23:59:59'  
+
+TST_F3_1_2_9:
+  unidentifier: taweesis
+  pwidentifier: Taw@2021
+  verify_login:
+    name: Taweesin Suksompoch
+    status: Available
+  state: [Failed]
+  StartDate : '2021-12-27 00:00:00'
+  EndDate : '2021-12-27 23:59:59'  
+
+TST_F3_1_2_10:
+  unidentifier: taweesis
+  pwidentifier: Taw@2021
+  verify_login:
+    name: Taweesin Suksompoch
+    status: Available
+  menu_criteria : [Instance Id] 
+  search_conditions:
+    instance_id: sub-nkjdk-23111311234199853229
+  StartDate : '2022-11-29 00:00:00'
+  EndDate : '2022-11-29 23:59:59' 
+
+TST_F3_1_2_11:
+  unidentifier: taweesis
+  pwidentifier: Taw@2021
+  verify_login:
+    name: Taweesin Suksompoch
+    status: Available
+  menu_criteria : [Name] 
+  search_conditions:
+    name: cbsSubscriber
+  StartDate : '2022-11-15 00:00:00'
+  EndDate : '2022-11-18 23:59:59'
+
+TST_F3_1_2_12:
+  unidentifier: taweesis
+  pwidentifier: Taw@2021
+  verify_login:
+    name: Taweesin Suksompoch
+    status: Available
+  menu_criteria : [Error Message] 
+  search_conditions:
+    error_message: 'Provisioning visioning fail, Provisioning visioning fail, ORA-20999: GAPI-57190,gnvProdTaxExemptNoRefCPS,VAT Exempt - AWN'
+  StartDate : '2023-11-10 00:00:00'
+  EndDate : '2023-11-10 23:59:59' 
+
+TST_F3_1_2_13:
+  unidentifier: taweesis
+  pwidentifier: Taw@2021
+  verify_login:
+    name: Taweesin Suksompoch
+    status: Available
+  menu_criteria : [External System] 
+  search_conditions:
+    external_system: PGZ
+  StartDate : '2022-11-24 00:00:00'
+  EndDate : '2022-11-24 23:59:59' 
+
+TST_F3_1_2_14:
+  unidentifier: taweesis
+  pwidentifier: Taw@2021
+  verify_login:
+    name: Taweesin Suksompoch
+    status: Available
+  menu_criteria : [Instance Id,Name,Error Message,External System]
+  state: [Failed]
+  search_conditions:
+    instance_id: sub-xz8b6-22032514532741784204
+    name: usmpDSSubscriber
+    error_message: 'Unexpected end of file from server'
+    external_system: PGZ
+  StartDate : '2022-03-25 00:00:00'
+  EndDate : '2022-03-25 23:59:59' 
+
+TST_F3_0_2_1:
+  unidentifier: taweesis
+  pwidentifier: Taw@2021
+  verify_login:
+    name: Taweesin Suksompoch
+    status: Available
+  menu_criteria : [Instance Id]
+  state: [Failed]
+  search_conditions:
+    instance_id: sub-xz8b6-22032514532741784204
+  StartDate : '2021-12-01 00:00:00'
+  EndDate : '2021-12-01 23:59:59' 
+
+TST_F3_1_4_1:
+  unidentifier: taweesis
+  pwidentifier: Taw@2021
+  verify_login:
+    name: Taweesin Suksompoch
+    status: Available 
+  StartDate : '2022-06-13 00:00:00'
+  EndDate : '2022-06-17 23:59:59'
+
+TST_F3_1_4_2:
+  unidentifier: taweesis
+  pwidentifier: Taw@2021
+  verify_login:
+    name: Taweesin Suksompoch
+    status: Available 
+  StartDate : '2022-06-13 00:00:00'
+  EndDate : '2022-06-17 23:59:59'
+  
+TST_F3_1_4_3:
+  unidentifier: taweesis
+  pwidentifier: Taw@2021
+  verify_login:
+    name: Taweesin Suksompoch
+    status: Available 
+  StartDate : '2022-06-13 00:00:00'
+  EndDate : '2022-06-17 23:59:59'
+
+TST_F3_1_4_4:
+  unidentifier: taweesis
+  pwidentifier: Taw@2021
+  verify_login:
+    name: Taweesin Suksompoch
+    status: Available 
+  StartDate : '2023-11-06 00:00:00'
+  EndDate : '2023-11-10 23:59:59'
+
+TST_F3_1_4_5:
+  unidentifier: taweesis
+  pwidentifier: Taw@2021
+  verify_login:
+    name: Taweesin Suksompoch
+    status: Available 
+  StartDate : '2023-11-06 00:00:00'
+  EndDate : '2023-11-10 23:59:59'
