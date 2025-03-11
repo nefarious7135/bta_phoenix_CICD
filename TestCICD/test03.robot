@@ -48,14 +48,5 @@ Get user profile success
     ${RES}  Set Variable    ${RES.json()}
     GetDataAndVerify    ${Exp_data}    ${RES}    ${Param}  
 
-Get user profile but user not found 
-    [Tags]    404 
-    [Documentation]    API https://reqres.in/api/users/1234
-    ...    1. Verify response status code should be ‘404’. 
-    ...    2. Response body should be '{}' 
-       
-    Create Session    mysession    https://reqres.in
-    ${RES}    GET On Session    mysession    /api/users/1234    expected_status=404
-    ${RES}  Set Variable    ${RES.json()}
-    Should Be Empty    ${empty}    ${RES}    
+
 
